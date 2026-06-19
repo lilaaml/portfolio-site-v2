@@ -10,14 +10,14 @@ const Hero = () => {
       <div className="mx-auto max-w-4xl px-4 md:px-0 text-center relative z-10">
         {/* Subtle Badge */}
         <div className="inline-flex items-center gap-1.5 rounded-full border border-indigo-200/80 bg-indigo-50/50 px-3.5 py-1.5 text-xs font-semibold text-indigo-700 dark:border-indigo-850/40 dark:bg-indigo-950/30 dark:text-indigo-400 mb-6">
-          <span className="flex h-2 w-2 rounded-full bg-indigo-650 dark:bg-indigo-400" />
+          <span className="flex h-2 w-2 rounded-full bg-indigo-600 dark:bg-indigo-400" />
           Jasa Pembuatan Website Profesional
         </div>
 
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tight text-gray-900 dark:text-white leading-tight">
           Membuat Bisnis Anda Terlihat Lebih{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-650 to-indigo-400 dark:from-indigo-400 dark:to-indigo-300">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-400 dark:from-indigo-400 dark:to-indigo-300">
             Profesional
           </span>{" "}
           dengan Website Modern
@@ -35,7 +35,7 @@ const Hero = () => {
             href="https://wa.me/6281293816977?text=Halo%20Lila,%20saya%20tertarik%20konsultasi%20pembuatan%20website"
             target="_blank"
             rel="noopener noreferrer"
-            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-lg bg-indigo-650 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 hover:bg-indigo-500 hover:shadow-indigo-500/30 active:scale-98 transition-all duration-200 cursor-pointer"
+            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-lg bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 hover:bg-indigo-700 hover:shadow-indigo-500/30 active:scale-98 transition-all duration-200 cursor-pointer"
           >
             <svg
               className="h-5 w-5 fill-current transition-transform group-hover:scale-110"

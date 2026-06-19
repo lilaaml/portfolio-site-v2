@@ -92,13 +92,13 @@ const Mechanism = () => {
               <div className="absolute top-4 right-4 text-4xl font-extrabold text-gray-100 dark:text-gray-800 select-none">
                 {step.number}
               </div>
-              <CardHeader className="pb-2">
+              <CardHeader className="flex flex-row items-center gap-4 pb-2">
                 <div className="flex items-center space-x-3 mb-2">
                   <div className="p-2 rounded-lg bg-indigo-50 dark:bg-indigo-950/50">
                     {step.icon}
                   </div>
                 </div>
-                <CardTitle className="text-lg font-bold text-gray-900 dark:text-white">
+                <CardTitle className="text-lg font-bold text-gray-900 dark:text-white pb-2">
                   {step.title}
                 </CardTitle>
               </CardHeader>

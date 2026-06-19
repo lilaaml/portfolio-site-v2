@@ -51,15 +51,15 @@ const Works = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="flex flex-col justify-between overflow-hidden border-indigo-100 dark:border-gray-800 bg-white dark:bg-gray-900 group hover:scale-[1.01] transition-transform duration-300"
+              className="group border-indigo-100 dark:border-gray-800 bg-white dark:bg-gray-900 group hover:scale-[1.01] transition-transform duration-300"
             >
               <div>
                 {/* Visual Accent Top Bar */}
-                <div className="h-1.5 w-full bg-gradient-to-r from-indigo-500 to-indigo-650" />
+                <div className="h-1.5 w-full bg-gradient-to-r from-indigo-500 to-indigo-700" />
                 
                 <CardHeader className="pb-2">
                   <div className="flex flex-wrap gap-1.5 mb-2">
@@ -115,4 +115,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Works;
